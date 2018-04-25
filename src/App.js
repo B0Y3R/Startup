@@ -47,11 +47,11 @@ class App extends Component {
                into the enclosure.
             </p>
             
-            <ul className="grid">
-              <li class="small"><div className="img1"></div></li>
-              <li class="large" className="img2;"></li>
-              <li class="small" className="img3"></li>
-              <li class="large" className="img4"></li>
+            <ul className="grid" >
+              <div className="small"><img src="https://images.unsplash.com/photo-1511286906603-e8a982144b4a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1ece58cb65ab5fe74760f3f08390a7c&auto=format&fit=crop&w=300&q=80"/></div>
+              <div className="large"><img src="https://images.unsplash.com/photo-1511286906603-e8a982144b4a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1ece58cb65ab5fe74760f3f08390a7c&auto=format&fit=crop&w=300&q=80"/></div>
+              <div className="small"><img src="https://images.unsplash.com/photo-1511286906603-e8a982144b4a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1ece58cb65ab5fe74760f3f08390a7c&auto=format&fit=crop&w=300&q=80"/></div>
+              <div className="large"><img src="https://images.unsplash.com/photo-1511286906603-e8a982144b4a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1ece58cb65ab5fe74760f3f08390a7c&auto=format&fit=crop&w=300&q=80"/></div>
             </ul>
           </section>
         
