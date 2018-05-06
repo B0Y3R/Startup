@@ -101,6 +101,7 @@ header nav li {
 
 
 .hero .background-image {
+	opacity: 0.6;
 	position: absolute;
 	top: 0;
 	left: 0;

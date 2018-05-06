@@ -1,15 +1,38 @@
 import React, { Component } from "react";
 import "../_Styles/PhotoGrid.css";
+import img1 from "./img1.jpg";
+import img2 from "./img2.jpg";
+import img3 from "./img3.jpg";
+import img4 from "./img4.jpg";
+
+console.log(img1);
+console.log(img2);
+
+var img = {
+    backgroundImage: 'url(' + img1 + ')',
+};
+
+var imgtwo = {
+    backgroundImage: 'url(' + img2 + ')'
+};
+
+var imgthree = {
+    backgroundImage: 'url(' + img3 + ')'
+}
+
+var imgFour = {
+    backgroundImage: 'url(' + img4 + ')'
+}
 
 class PhotoGrid extends Component {
     render() {
         return(
                 <ul className="grid" >
-                            <li className="small"><img src="https://images.unsplash.com/photo-1511286906603-e8a982144b4a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1ece58cb65ab5fe74760f3f08390a7c&auto=format&fit=crop&w=300&q=80"/></li>
-                            <li className="large"><img src="https://images.unsplash.com/photo-1511286906603-e8a982144b4a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1ece58cb65ab5fe74760f3f08390a7c&auto=format&fit=crop&w=300&q=80"/></li>
-                            <li className="small"><img src="https://images.unsplash.com/photo-1511286906603-e8a982144b4a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1ece58cb65ab5fe74760f3f08390a7c&auto=format&fit=crop&w=300&q=80"/></li>
-                            <li className="large"><img src="https://images.unsplash.com/photo-1511286906603-e8a982144b4a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1ece58cb65ab5fe74760f3f08390a7c&auto=format&fit=crop&w=300&q=80"/></li>
-                        </ul>
+                            <li className="small" style={img}></li>
+                            <li className="large" style={imgtwo}></li>
+                            <li className="large" style={imgthree}></li>
+                            <li className="small" style={imgFour}></li>
+                </ul>
         )
     }
 };

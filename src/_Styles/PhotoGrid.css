@@ -1,23 +1,25 @@
-.grid {
+ ul.grid {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+
 }
 
-.grid li {
+.destinations .grid li {
 	height: 350px;
+	width: 200px;
 	padding: 20px;
 	background-clip: content-box;
 	background-size: cover;
 	background-position: center;
 }
 
-img .small {
+li.small  {
 	flex-basis: 30%;
 }
 
-img .large {
+li.large   {
 	flex-basis: 70%;
 }
 

@@ -7,14 +7,16 @@ class IconFacts extends Component {
             <section className="packages">
                 
             <h3 className="title">SAFEBAY KEY POINTS</h3>
-            <p>We offer a variety of mountaineering packages! Weather you've climbed Everest, or don't even know what a mountain is, we've got the perfect vacation for you!</p>
+            <p>SafeBay was developed to fill a void, 
+            and eliminate the hassels of traveling on two wheels. 
+            Our Storage solutions allow you to enjoy the ride and destination </p>
 
             <hr />
 
             <ul className="grid">
             <li>
                 <i className="fa fa-motorcycle fa-4x"></i>
-                <h4>Guided Trips</h4>
+                <h4></h4>
                 <p>Looking for the complete expierence? Take a tour with one of our experts. They'll show you secrets that you're likely to miss otherwise.</p>
             </li>
 

@@ -1,9 +1,10 @@
 /*Packages Section*/
-.grid {
+.packages .grid {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+
 }
 
 .packages .grid li {
@@ -13,7 +14,7 @@
 }
 
 .packages .grid li i {
-	color: #8c9eff;
+	color: #0099e6;
 }
 
 .packages .grid li h4 {
